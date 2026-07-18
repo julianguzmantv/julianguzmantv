@@ -1,262 +1,178 @@
+<!-- INSTRUCCIONES: 
+  1. Crea el repo especial: github.com/new → nombre exacto "julianguzmantv" → Initialize with README
+  2. Sube los 2 archivos SVG (header.svg y divider.svg) a ese mismo repo
+  3. Pega este README.md → commit → ¡listo!
+-->
+
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff9d,100:00d4ff&height=200&section=header&text=Julian%20Guzmán&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%7C%20Java%20%26%20Spring%20Boot%20Specialist&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
-
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FF9D&center=true&vCenter=true&width=700&lines=Backend+Developer+%F0%9F%9A%80;Java+%26+Spring+Boot+Engineer+%E2%98%95;Microservices+Architect+%F0%9F%94%A7;Systems+Engineering+Student+%F0%9F%8E%93;Building+the+future%2C+one+commit+at+a+time+%E2%9C%A8" alt="Typing SVG" />
-</a>
+<img src="header.svg" width="100%" alt="Julian Guzmán — Backend Developer"/>
 
 <br/>
 
-<!-- PROFILE VIEWS + SOCIALS -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=julianguzmantv&label=Profile%20Views&color=00ff9d&style=for-the-badge" alt="profile views"/>
-  <a href="https://www.linkedin.com/in/julian-guzman-784126148">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/julianguzmantv">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <img src="https://img.shields.io/badge/Colombia%20🇨🇴-Open%20to%20Work-00ff9d?style=for-the-badge" alt="Colombia"/>
-</p>
+<!-- BADGES SOCIALES -->
+<a href="https://www.linkedin.com/in/julian-guzman-784126148">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://github.com/julianguzmantv?tab=repositories">
+  <img src="https://img.shields.io/badge/11_Repositorios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/Open_to_Work-00ff9d?style=for-the-badge&logo=checkmarx&logoColor=black" alt="Open to Work"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Remote_Friendly-00d4ff?style=for-the-badge&logo=googlemeet&logoColor=black" alt="Remote"/>
 
 </div>
 
----
+<br/>
 
-## ⚡ `whoami`
+<img src="divider.svg" width="100%"/>
+
+## `$ whoami`
 
 ```java
-@Developer
+@Engineer
 public class JulianGuzman {
 
-    String name        = "Julian Guzmán";
-    String role        = "Backend Developer";
-    String university  = "Universidad de los Llanos";
-    String degree      = "Systems Engineering";
-    String[] languages = {"Spanish 🇨🇴 (Native)", "English 🇺🇸 (Bilingual)"};
+    final String name        = "Julian Guzmán";
+    final String role        = "Backend Developer";
+    final String university  = "Universidad de los Llanos";
+    final String degree      = "Ingeniería de Sistemas";
+    final String location    = "Colombia 🇨🇴";
+    final String[] idiomas   = { "Español (Nativo)", "English (Bilingual)" };
 
-    String[] currentlyLearning = {
-        "Advanced Microservices Patterns",
-        "Cloud Architecture (AWS/GCP)",
-        "DevOps & CI/CD Pipelines"
+    final String[] foco = {
+        "APIs REST escalables con Java + Spring Boot",
+        "Arquitecturas de Microservicios distribuidos",
+        "Automatización y administración remota de sistemas",
+        "Algoritmos de optimización e IA aplicada"
     };
 
-    String motto = "Clean code is not written by following a set of rules.";
+    String misión() {
+        return "Construir software que resuelva problemas reales. Limpio, eficiente y escalable.";
+    }
 }
 ```
 
----
+<img src="divider.svg" width="100%"/>
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### 🔥 Core — What I Build With Daily
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
-</p>
-
-### 🐍 Also In My Arsenal
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-</p>
-
-### 🗄️ Databases & Storage
-
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-</p>
-
-### ⚙️ DevOps & Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white"/>
-  <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Microservices-00ff9d?style=for-the-badge&logo=apachekafka&logoColor=black"/>
-</p>
-
-</div>
-
----
-
-## 🚀 Featured Projects
+## 🛠️ Stack Tecnológico
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**— Backend Core —**
 
-### 🎯 [EventPRO](https://github.com/julianguzmantv/EventPRO)
-> **AI-Powered Global Event Manager**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
-An intelligent platform to search and manage global events — powered by AI. Full-stack Java architecture with smart filtering and event discovery.
+**— Otros Lenguajes —**
 
-**Stack:** `Java` `Spring Boot` `AI Integration` `REST API`
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-[![EventPRO](https://img.shields.io/badge/View_Repo-00ff9d?style=for-the-badge&logo=github&logoColor=black)](https://github.com/julianguzmantv/EventPRO)
+**— Bases de Datos —**
 
-</td>
-<td width="50%" valign="top">
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### 🔧 [RemoteAdmin IntraNet](https://github.com/julianguzmantv/Administraci-nRemotaIntraRed)
-> **Remote PC Administration System**
+**— DevOps & Herramientas —**
 
-Full system for remote PC management over a local network. Spring Boot backend + Electron desktop agent for seamless cross-platform control.
-
-**Stack:** `Spring Boot` `Electron` `Go` `WebSockets`
-
-[![RemoteAdmin](https://img.shields.io/badge/View_Repo-00d4ff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/julianguzmantv/Administraci-nRemotaIntraRed)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ [PrimeMicroservices](https://github.com/julianguzmantv/PrimeMicroservicios-GenPrimos)
-> **Distributed Prime Number Generator**
-
-Scalable microservices architecture for generating massive prime numbers (12+ digits). Asynchronous processing with distributed design patterns.
-
-**Stack:** `Java` `Microservices` `Async Processing` `Spring Boot`
-
-[![PrimeMicro](https://img.shields.io/badge/View_Repo-ff6ec7?style=for-the-badge&logo=github&logoColor=black)](https://github.com/julianguzmantv/PrimeMicroservicios-GenPrimos)
-
-</td>
-<td width="50%" valign="top">
-
-### 📡 [RemoteConnection Linux↔Windows](https://github.com/julianguzmantv/RemoteConnectionLinux-Windows)
-> **Cross-Platform Remote Bridge**
-
-Remote connection solution bridging Linux and Windows systems. Lightweight and efficient, written in Go for maximum performance.
-
-**Stack:** `Go` `Networking` `Linux` `Windows`
-
-[![RemoteConn](https://img.shields.io/badge/View_Repo-ff9d00?style=for-the-badge&logo=github&logoColor=black)](https://github.com/julianguzmantv/RemoteConnectionLinux-Windows)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧮 [RutaOptimaPy](https://github.com/julianguzmantv/RutaOptimaPy)
-> **Non-Linear Optimization Solver**
-
-Advanced system integrating analytical and algorithmic methods to solve non-linear optimization problems. Academic-grade algorithms with real-world applications.
-
-**Stack:** `Python` `Algorithms` `Math` `Optimization`
-
-[![RutaOptima](https://img.shields.io/badge/View_Repo-a78bfa?style=for-the-badge&logo=github&logoColor=black)](https://github.com/julianguzmantv/RutaOptimaPy)
-
-</td>
-<td width="50%" valign="top">
-
-### 🌱 [Kit Macetas Modulares](https://github.com/julianguzmantv/kit-macetas-modulares)
-> **Parametric FDM Design — 3D Printing**
-
-Modular germination kit designed with parametric Python scripting for FDM 3D printing. University engineering project merging code and physical design.
-
-**Stack:** `Python` `Parametric Design` `3D Printing` `FDM`
-
-[![Macetas](https://img.shields.io/badge/View_Repo-4ade80?style=for-the-badge&logo=github&logoColor=black)](https://github.com/julianguzmantv/kit-macetas-modulares)
-
-</td>
-</tr>
-</table>
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![Postman](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
 
----
+<img src="divider.svg" width="100%"/>
+
+## 🚀 Proyectos Destacados
+
+<div align="center">
+
+| 🎯 Proyecto | 📝 Descripción | 🔧 Stack | 🔗 |
+|:---|:---|:---|:---:|
+| **[EventPRO](https://github.com/julianguzmantv/EventPRO)** | Gestor de eventos globales impulsado por IA. Búsqueda inteligente, filtrado avanzado y arquitectura Java full-stack. | `Java` `Spring Boot` `AI` | [![ver](https://img.shields.io/badge/ver-00ff9d?style=flat-square&logo=github&logoColor=black)](https://github.com/julianguzmantv/EventPRO) |
+| **[RemoteAdmin IntraRed](https://github.com/julianguzmantv/Administraci-nRemotaIntraRed)** | Sistema de administración remota de PCs en red local. Backend Spring Boot + agente Electron multiplataforma. | `Spring Boot` `Electron` `WebSockets` | [![ver](https://img.shields.io/badge/ver-00d4ff?style=flat-square&logo=github&logoColor=black)](https://github.com/julianguzmantv/Administraci-nRemotaIntraRed) |
+| **[PrimeMicroservicios](https://github.com/julianguzmantv/PrimeMicroservicios-GenPrimos)** | Arquitectura distribuida de microservicios para generación de primos de 12+ dígitos con procesamiento asíncrono. | `Java` `Microservices` `Async` | [![ver](https://img.shields.io/badge/ver-ff6ec7?style=flat-square&logo=github&logoColor=black)](https://github.com/julianguzmantv/PrimeMicroservicios-GenPrimos) |
+| **[RemoteConnection Linux↔Win](https://github.com/julianguzmantv/RemoteConnectionLinux-Windows)** | Puente de conexión remota entre Linux y Windows. Ligero y eficiente, escrito en Go para máxima performance. | `Go` `Networking` `Cross-platform` | [![ver](https://img.shields.io/badge/ver-ff9d00?style=flat-square&logo=github&logoColor=black)](https://github.com/julianguzmantv/RemoteConnectionLinux-Windows) |
+| **[RutaOptimaPy](https://github.com/julianguzmantv/RutaOptimaPy)** | Sistema de resolución de problemas de optimización no lineal con métodos analíticos y algorítmicos. | `Python` `Algoritmos` `Math` | [![ver](https://img.shields.io/badge/ver-a78bfa?style=flat-square&logo=github&logoColor=black)](https://github.com/julianguzmantv/RutaOptimaPy) |
+| **[Kit Macetas Modulares](https://github.com/julianguzmantv/kit-macetas-modulares)** | Kit modular de germinación con diseño paramétrico en Python para impresión 3D FDM. | `Python` `3D Printing` `Parametric` | [![ver](https://img.shields.io/badge/ver-4ade80?style=flat-square&logo=github&logoColor=black)](https://github.com/julianguzmantv/kit-macetas-modulares) |
+
+</div>
+
+<img src="divider.svg" width="100%"/>
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=julianguzmantv&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff9d&icon_color=00d4ff&text_color=ffffff&ring_color=00ff9d" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=julianguzmantv&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff9d&icon_color=00d4ff&text_color=ffffff" width="48%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=julianguzmantv&theme=radical&hide_border=true&background=0d1117&ring=00ff9d&fire=00d4ff&currStreakLabel=00ff9d" width="48%"/>
-
-<br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=julianguzmantv&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff9d&text_color=ffffff&langs_count=8" width="48%"/>
 
 </div>
 
----
+> ⚠️ **Nota:** Las tarjetas de stats requieren conexión a `vercel.app`. Si no cargan en tu red, prueba desde otra conexión o activa una VPN.
 
-## 🏆 GitHub Trophies
+<img src="divider.svg" width="100%"/>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=julianguzmantv&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" width="100%"/>
-</div>
-
----
-
-## 📈 Contribution Graph
+## 📈 Actividad de Contribuciones
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=julianguzmantv&bg_color=0d1117&color=00ff9d&line=00d4ff&point=ffffff&area=true&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=julianguzmantv&bg_color=0d1117&color=00ff9d&line=00d4ff&point=ffffff&area=true&hide_border=true" width="100%"/>
 </div>
 
----
+<img src="divider.svg" width="100%"/>
 
-## 🎯 Currently
+## 🎯 Estado Actual
 
 ```bash
-$ status --verbose
+$ juliandev --status
 
-🎓  Studying Systems Engineering @ Universidad de los Llanos
-🔨  Building scalable Java/Spring Boot APIs
-🌐  Expanding to Cloud & DevOps (AWS, Docker, CI/CD)
-🤝  Open to remote opportunities & collaborations
-🚀  Focus: Microservices · REST APIs · Backend Architecture
+▸ Estudiando     Ingeniería de Sistemas @ Universidad de los Llanos
+▸ Construyendo   APIs REST y microservicios con Java/Spring Boot
+▸ Aprendiendo    Cloud (AWS/GCP) · Docker · CI/CD Pipelines
+▸ Disponible     Proyectos remotos · Colaboraciones · Freelance
+▸ Intereses      Backend Architecture · Distributed Systems · AI
 ```
 
----
+<img src="divider.svg" width="100%"/>
 
-## 📬 Let's Connect
+## 📬 Hablemos
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/julian-guzman-784126148">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Conectar_en_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://github.com/julianguzmantv">
-  <img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;
-<a href="mailto:julianguzmantv@gmail.com">
-  <img src="https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Follow_en_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
 
 > *"Any fool can write code that a computer can understand.*
-> *Good programmers write code that humans can understand."*
-> **— Martin Fowler**
+> *Good programmers write code that **humans** can understand."*
+>
+> — **Martin Fowler**
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:00ff9d,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="divider.svg" width="100%"/>
+
+![Footer](https://img.shields.io/badge/Made_with_%E2%9D%A4%EF%B8%8F_by-julianguzmantv-00ff9d?style=for-the-badge)
 
 </div>
